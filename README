@@ -1,23 +1,24 @@
 
 	Readme
 
-This is the `README' file for 
+This is the `README' file for lu
 
 	What is it ?
 
+lu (level usage) is an utility to show disk space used on a per-depth basis
 
 	Tarball
 
 it is distributed in a tar-gzipped archive, and to open it, simply :
 
-$ gzip -d 
-$ tar xf 
+$ gzip -d lu-<version>.tar.gz
+$ tar xf lu-<version>.tar
 
 	Source-code directory
 
 After the steps above, go to the source-code directory, 
 
-$ cd ...
+$ cd lu-<version>
 
 	Installation
 
@@ -40,9 +41,11 @@ just to validate some key features and functions.
 
 	Concepts
 
+if  you are not unix/Linux tech support staff, just get familiar to the concepts of directory, filesystem and disk usage prior to usinf 'lu'.
 
 	Reports
 
+the typical output is a list of directories and sizes.
 
 	Development
 
@@ -52,10 +55,11 @@ still to be implemented in due time.
 
 	Warnings
 
+this software requires root privileges (1) if you are not the owner of the directories being inspected.
 
 	Feedback
 
-Bug reports should be directed to the `support' facility at SourceForge;
+Bug reports should be directed to either github or the `support' facility at SourceForge;
 However, any comment, improvement/enhencement suggestions, problem report,
 or general feedback can be sent by email and is very welcome.
 
